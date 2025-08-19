@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333;
+  }
+  
+  /* Hero sekce (hlavička) */
+  header.hero {
+    background-color: #eef2f5;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin: 0 0 0.5rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Navigace */
+  nav {
+    background-color: #eef1f5;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid #d0d8e0;
+  }
+  
+  nav a {
+    margin: 0 1.2rem;
+    text-decoration: none;
+    color: #3a4452;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #8592a3;
+  }
+  
+  /* Sekce */
+  section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  }
+  
+  /* Styl pro detail služby */
+  section.service-detail {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Nadpisy */
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #3a4452;
+    border-left: 4px solid #b0c7dc;
+    padding-left: 0.75rem;
+  }
+  
+  /* Seznam služeb */
+  ul {
+    padding-left: 1.2rem;
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 1rem;
+  }
+  
+  /* Ceník */
+  .cenik table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .cenik th,
+  .cenik td {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .cenik th {
+    background-color: #f0f3f7;
+    color: #555;
+  }
+  
+  /* Tlačítko-odkaz */
+  .btn-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #dce7f3;
+    color: #3a4452;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-link:hover {
+    background-color: #c7d7ea;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    background-color: #e6e9ec;
+    color: #6a6a6a;
+    margin-top: 4rem;
+  }
+  
+  footer a {
+    color: #3a4452;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
